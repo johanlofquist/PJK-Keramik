@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inria Serif', serif;
+    font-family: 'Cantarell', sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-weight: 400;
+}
+
+#logo {
+    margin-left: 3vw;
+}
+
+#links {
+    display: flex;
+    margin-right: 3vw;
+    gap: 50px;
+}
+
+#links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+#landing__page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/resources/img/bg1.jpg);
+    background-size: cover;
+    background: transparent;
+}
+#landing__page h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: 40px;
+}
+#landing__page h1 {
+    font-size: 88px;
+    font-weight: 300;
+    font-family: 'Inria Serif', serif;
+    margin: 0;
+    margin-bottom: 40px;
+}
